@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像处理系统</title>
+</head>
+<style>
+    h1{
+        text-align:center;
+        
+    }
+    button{
+        position: absolute;
+        text-align:center;
+        left: 55%;
+        transform: translateX(-50%);
+    }
+    input{
+        position: absolute;
+        text-align:center;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    </style>
+
+<body>
+    <h1>上传图片进行处理</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file"><!-- 后端代码的文件名name= -->
+        <button type="submit" value="Upload">上传</button>
+    </form>
+</body>
+
+</html>

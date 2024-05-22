@@ -1,0 +1,3 @@
+打包库的下载：pip3 install pyinstaller
+打包命令：pyinstaller-F setup.py
+百度api：https://ai.baidu.com/tech/ocr_cars/plate
